@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Saffron Product</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .product-card {
+      background: #fff;
+      padding: 20px;
+      max-width: 350px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .product-card img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .product-card h3 {
+      margin: 15px 0 10px;
+    }
+    .product-card button {
+      background-color: #0b7dda;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="product-card">
+    <img src="aji.jpg" alt="Saffron">
+    <h3>Saffron</h3>
+    <p></p>
+    <button onclick="goToGoogleSearch()">Add to Cart</button>
+  </div>
+
+  <script>
+    function goToGoogleSearch() {
+      window.location.href = "https://www.google.com/search?q=saffron";
+    }
+  </script>
+</body>
+</html>
